@@ -22,3 +22,10 @@ Properties kept:
 Run the script in silent mode to avoid extra npm noise, and direct output to a file:
 
 `npm run -s convert <csv filename> > output.json`
+
+
+## XML API 
+
+Path to request data for board games only (exlude expansions) that have been played
+`https://boardgamegeek.com/xmlapi2/collection?username=mekane&excludesubtype=boardgameexpansion&played=1`
+
